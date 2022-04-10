@@ -6,7 +6,7 @@ duration = duration*10
 fourcc = cv2.VideoWriter_fourcc('X', 'V', 'I', 'D')
 videoWriter = cv2.VideoWriter('video.avi', fourcc, 30.0, (640, 480))
 current = 0
-limit = 3*duration # bei duration 50 ca. 50 seconds
+limit = 3*duration # by duration 50 ca. 50 seconds
 
 while(True):
 
